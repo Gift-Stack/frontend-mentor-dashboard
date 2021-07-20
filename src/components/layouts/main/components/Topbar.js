@@ -5,7 +5,7 @@ const Topbar = () => {
     <div className='topbar'>
       <div className='topbar-left'>
         <i className="bi bi-award"></i>
-        <p>6 suggesions</p>
+        <strong>6 Suggesions</strong>
         <p className='text-muted'>sort by : 
         <select>
           <option value="Most upvotes">Most Upvotes</option>
