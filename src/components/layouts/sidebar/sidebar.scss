@@ -1,0 +1,88 @@
+.card {
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+.title-card {
+    background-color: #b621fe;
+    background-image: linear-gradient(330deg, #b621fe 0%,#1fd1f9 74%);
+    color: white;
+    padding: 60px 20px 20px 20px;
+    h3 {
+        margin: 0;
+    }
+    p {
+        margin: 0;
+        font-size: small;
+    }
+}
+
+.features-card {
+    padding: 5px 0;
+    color: rgb(84, 84, 199);
+    font-size: smaller;
+    font-weight: bolder;
+    ul {
+        list-style: none;
+        padding: 0  10px;
+        li:first-child{
+            background: rgb(84, 84, 199);
+            color: #fff
+        };
+        li {
+            display: inline-flex;
+            padding: 5px 10px;
+            margin: 5px;
+            background: rgba(230, 230, 250,0.319);
+            border-radius: 8px;
+        }
+    }
+}
+
+.roadmap {
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -10px;
+        a{
+            text-decoration: underline;
+            font-size: smaller;
+            color: rgb(84, 84, 199);
+        }
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 0;
+
+        li {
+            font-size: smaller;
+            display: flex;
+            text-align: left;
+            justify-content: space-between;
+            .circle::before{
+                content: "\2022";
+                font-weight: bold;
+                display: inline;
+                width: 1em;
+                margin-left: 0em;
+                margin-bottom: 1em;
+            }
+            .circle-orange::before{
+                color: orange; 
+            }
+            .circle-purple::before{
+                color: violet; 
+            }
+            .circle-blue::before{
+                color: skyblue; 
+            }
+            .text-muted {
+                color: #999;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.container {
+    min-height: 100vh;
+    background: rgba(230, 230, 250, 0.319)
+    ;
+    padding: 40px 80px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 50px;
+}
